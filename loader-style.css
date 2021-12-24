@@ -1,55 +1,170 @@
-.lds-ellipsis {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
+#circular3dG{
+	position:relative;
+	width:58px;
+	height:58px;
+	margin:auto;
 }
-.lds-ellipsis div {
-  position: absolute;
-  top: 33px;
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background: #fff;
-  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+
+.circular3dG{
+	position:absolute;
+	background-color:rgb(0,0,0);
+	width:17px;
+	height:17px;
+	border-radius:18px;
+		-o-border-radius:18px;
+		-ms-border-radius:18px;
+		-webkit-border-radius:18px;
+		-moz-border-radius:18px;
+	animation-name:bounce_circular3dG;
+		-o-animation-name:bounce_circular3dG;
+		-ms-animation-name:bounce_circular3dG;
+		-webkit-animation-name:bounce_circular3dG;
+		-moz-animation-name:bounce_circular3dG;
+	animation-duration:1.2s;
+		-o-animation-duration:1.2s;
+		-ms-animation-duration:1.2s;
+		-webkit-animation-duration:1.2s;
+		-moz-animation-duration:1.2s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-direction:normal;
+		-o-animation-direction:normal;
+		-ms-animation-direction:normal;
+		-webkit-animation-direction:normal;
+		-moz-animation-direction:normal;
 }
-.lds-ellipsis div:nth-child(1) {
-  left: 8px;
-  animation: lds-ellipsis1 0.6s infinite;
+
+#circular3d_1G{
+	left:23px;
+	top:4px;
+	animation-delay:0.45s;
+		-o-animation-delay:0.45s;
+		-ms-animation-delay:0.45s;
+		-webkit-animation-delay:0.45s;
+		-moz-animation-delay:0.45s;
 }
-.lds-ellipsis div:nth-child(2) {
-  left: 8px;
-  animation: lds-ellipsis2 0.6s infinite;
+
+#circular3d_2G{
+	left:36px;
+	top:14px;
+	animation-delay:0.6s;
+		-o-animation-delay:0.6s;
+		-ms-animation-delay:0.6s;
+		-webkit-animation-delay:0.6s;
+		-moz-animation-delay:0.6s;
 }
-.lds-ellipsis div:nth-child(3) {
-  left: 32px;
-  animation: lds-ellipsis2 0.6s infinite;
+
+#circular3d_3G{
+	left:43px;
+	top:26px;
+	animation-delay:0.75s;
+		-o-animation-delay:0.75s;
+		-ms-animation-delay:0.75s;
+		-webkit-animation-delay:0.75s;
+		-moz-animation-delay:0.75s;
 }
-.lds-ellipsis div:nth-child(4) {
-  left: 56px;
-  animation: lds-ellipsis3 0.6s infinite;
+
+#circular3d_4G{
+	left:40px;
+	top:39px;
+	animation-delay:0.9s;
+		-o-animation-delay:0.9s;
+		-ms-animation-delay:0.9s;
+		-webkit-animation-delay:0.9s;
+		-moz-animation-delay:0.9s;
 }
-@keyframes lds-ellipsis1 {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
+
+#circular3d_5G{
+	left:24px;
+	top:43px;
+	animation-delay:1.05s;
+		-o-animation-delay:1.05s;
+		-ms-animation-delay:1.05s;
+		-webkit-animation-delay:1.05s;
+		-moz-animation-delay:1.05s;
 }
-@keyframes lds-ellipsis3 {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-  }
+
+#circular3d_6G{
+	left:5px;
+	top:28px;
+	animation-delay:1.2s;
+		-o-animation-delay:1.2s;
+		-ms-animation-delay:1.2s;
+		-webkit-animation-delay:1.2s;
+		-moz-animation-delay:1.2s;
 }
-@keyframes lds-ellipsis2 {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(24px, 0);
-  }
+
+#circular3d_7G{
+	left:0px;
+	top:8px;
+	animation-delay:1.35s;
+		-o-animation-delay:1.35s;
+		-ms-animation-delay:1.35s;
+		-webkit-animation-delay:1.35s;
+		-moz-animation-delay:1.35s;
+}
+
+#circular3d_8G{
+	left:10px;
+	top:0px;
+	animation-delay:1.5s;
+		-o-animation-delay:1.5s;
+		-ms-animation-delay:1.5s;
+		-webkit-animation-delay:1.5s;
+		-moz-animation-delay:1.5s;
+}
+
+
+
+@keyframes bounce_circular3dG{
+	0%{
+	transform:scale(1)
+	}
+
+	100%{
+	transform:scale(.3)
+	}
+}
+
+@-o-keyframes bounce_circular3dG{
+	0%{
+	-o-transform:scale(1)
+	}
+
+	100%{
+	-o-transform:scale(.3)
+	}
+}
+
+@-ms-keyframes bounce_circular3dG{
+	0%{
+	-ms-transform:scale(1)
+	}
+
+	100%{
+	-ms-transform:scale(.3)
+	}
+}
+
+@-webkit-keyframes bounce_circular3dG{
+	0%{
+	-webkit-transform:scale(1)
+	}
+
+	100%{
+	-webkit-transform:scale(.3)
+	}
+}
+
+@-moz-keyframes bounce_circular3dG{
+	0%{
+	-moz-transform:scale(1)
+	}
+
+	100%{
+	-moz-transform:scale(.3)
+	}
 }
